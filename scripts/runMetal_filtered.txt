@@ -1,0 +1,53 @@
+
+VERBOSE OFF
+
+# Describe and process input files
+MARKER   Marker
+WEIGHT   N
+ALLELE   RefAllele AltAllele
+EFFECT   beta
+STDERR   SE
+PVAL     pvalue
+PROCESS results/cohorts_METAL_tabs_filtered/300BCG_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Aberdeen_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Archive_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/ARIES_F17_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Barcelona_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Barcelona_PBMC_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/BeCOME_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/BIB_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/BioMDY_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/BirthCohort1946_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Busselton_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Dublin_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/DutchHunger_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/EPICOR_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/EUGEI_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/EXTEND_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/F5L_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/glaku_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/GS_all_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/GS_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/HELIX_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Kids2Health_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/KORA_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/LBC21_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/LBC36_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/LURIC_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/MARTHA_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/PIAMA_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Potsdam_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Raine_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/REVERSE_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/SABRE_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/SisterStudy_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/TwinsUK_EPIC_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/TwinsUK_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/UCL_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/Unidep_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/YFS_G0_metal.txt
+PROCESS results/cohorts_METAL_tabs_filtered/YFS_G1_metal.txt
+
+# Execute meta-analysis
+OUTFILE results/meta_analysis/invqtl_metanalysis .tbl
+ANALYZE

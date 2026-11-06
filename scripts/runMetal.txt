@@ -1,0 +1,10 @@
+
+VERBOSE OFF
+
+# Describe and process input files
+MARKER   Marker
+WEIGHT   N
+ALLELE   RefAllele AltAllele
+EFFECT   beta
+STDERR   SE
+PVAL     pvalue
