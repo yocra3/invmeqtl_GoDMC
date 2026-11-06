@@ -48,3 +48,9 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+## Data folders
+data/
+cohort_results/
+figures/
+results/
